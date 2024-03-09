@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>\
+            <style>
+              #svgelm{
+                position:relative;
+                left:50%;
+                /* webkit used for diiferent braowsers chrome safari newer version of opera  */
+                -webkit-transform:translateX(-20%);
+                /* ms used for internatet exploreer */
+                -ms-transform: translate(-20%);
+                /* Standard syntax for other browsers */
+                transform:translate(-20%);
+              }
+            </style>
+            <title>
+                SVG
+            </title>
+            <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2 align="center">HTML5 SVG File</h2>
+        <svg id="svgelm" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle id="redCircle" cx="50" cy="50" r="50" fill="blue"></circle>
+        </svg>
+    </body>
+</html>
